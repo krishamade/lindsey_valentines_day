@@ -1,8 +1,8 @@
 version: "3"
 services:
   web:
-    image: .
+    image: test
     container_name: lindsey-valentines
     restart: unless-stopped
     ports:
-      - "8180:8180"
+      - "8187:8180"
